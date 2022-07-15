@@ -1,0 +1,9 @@
+{
+  "name": "styled-pdf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "jspdf": "^2.5.1"
+  }
+}
