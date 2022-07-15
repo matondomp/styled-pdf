@@ -1,5 +1,5 @@
  import { jsPDF } from 'jspdf'
- //import { calculateTheLengthOfText, percent, removePercent } from './helper'
+ import { calculateTheLengthOfText, percent, removePercent } from './helper'
 
  const doc = new jsPDF()
 
@@ -7,7 +7,7 @@
  let pageWidth = doc.internal.pageSize.width || doc.internal.pageSize.getWidth();
  let globalHeight = 0;
 
-
+/* 
 let percent = function (internalSize, element) {
   let index = element.indexOf("%");
   if (index > -1) {
@@ -27,7 +27,7 @@ function removePercent(heigth) {
 
 function calculateTheLengthOfText(text, width, heigth) {
   return text.length / width - 1;
-}
+} */
 
 
 function addPage(heigth, top) {
@@ -151,6 +151,6 @@ class Container {
     percent,
     removePercent,
     globalHeight,
-    jsPDF
+    doc
   }
 
