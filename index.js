@@ -1,11 +1,34 @@
  import { jsPDF } from 'jspdf'
- import { calculateTheLengthOfText, percent, removePercent } from './helper'
+ //import { calculateTheLengthOfText, percent, removePercent } from './helper'
 
  const doc = new jsPDF()
 
  let pageHeight = doc.internal.pageSize.height || doc.internal.pageSize.getHeight();
  let pageWidth = doc.internal.pageSize.width || doc.internal.pageSize.getWidth();
  let globalHeight = 0;
+
+
+let percent = function (internalSize, element) {
+  let index = element.indexOf("%");
+  if (index > -1) {
+    let getRealValue = element.slice(0, index);
+    if (getRealValue > 100) getRealValue = 100;
+    return ((internalSize - 5) * Number(getRealValue)) / 100;
+  }
+  return element;
+};
+
+function removePercent(heigth) {
+  console.log(heigth);
+  const index = heigth.indexOf("%");
+  let getRealPart = heigth.substr(0, index);
+  return Number(getRealPart);
+}
+
+function calculateTheLengthOfText(text, width, heigth) {
+  return text.length / width - 1;
+}
+
 
 function addPage(heigth, top) {
   if (globalHeight >= heigth) {
