@@ -127,6 +127,7 @@ class Container {
     calculateTheLengthOfText,
     percent,
     removePercent,
+    globalHeight,
     jsPDF
   }
 
