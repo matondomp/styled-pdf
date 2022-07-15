@@ -110,9 +110,23 @@ class Container {
         percent(pageWidth, style.height)
       );
     }
+    
+    save() {
+      doc.save();
+    }
+
+    print() {
+      doc.autoPrint();
+      doc.output("dataurlnewwindow");
+    }
   }
 
   export {
     Container,
-    addPage
+    addPage,
+    calculateTheLengthOfText,
+    percent,
+    removePercent,
+    jsPDF
   }
+
