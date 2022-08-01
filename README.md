@@ -21,10 +21,10 @@
 
 ## Features
 
-- Component class :
+ Component class :
   DIV
  <details>
-    <summary> div component <summary>
+    <summary> div component </summary>
     ```js
      
      let style = {
