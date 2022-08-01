@@ -3,7 +3,24 @@
   "version": "1.0.4",
   "main": "index.js",
   "license": "MIT",
+  "description": "STYLED-PDF is an interactive pdf layout building library, with dev experience similar to css.",
+  "keywords": [
+    "styled-pdf",
+    "pdf",
+    "css in pdf",
+    "pdf like css",
+    "objet pdf", 
+    "jspdf",
+    "best way jspdf",
+    "matondo"
+   ],
+   "author": {
+    "name": "matondo pedro",
+    "email": "freitaspedromp@gmail.com",
+    "url": "https://www.linkedin.com/in/matondo-pedro/"
+   },
   "dependencies": {
     "jspdf": "^2.5.1"
   }
+ 
 }
