@@ -14,6 +14,19 @@
  }
   container.dv(doc, style)
  ```
+ <h1>First Steps</h1>
+ - install:
+ 
+  ```sh
+   npm i styled-pdf
+    
+ ```
+ - importing
+   
+  ```js
+   import { Container, doc } from "styled-pdf";
+    
+ ```
 
 - Component
 - Style
