@@ -19,23 +19,22 @@
 - Style
 - Javascript function
 
-##Features
+## Features
 
  Component class :
    DIV 
-   
  <details>
- 
     <summary> div component </summary>
+ 
 ```js
     let style = {
-            marginLeft: '45.5%',
-            width: '35%',
-            heigth: '13%',
-            padding: '15%',
-            border: [0,0,0],
+        marginLeft: '45.5%',
+        width: '35%',
+        heigth: '13%',
+        padding: '15%',
+        border: [0,0,0],
      }
-    container.div(doc, style)
+ container.div(doc, style)
 ```
 
  </details>
