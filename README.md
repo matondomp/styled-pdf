@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
  STYLED-PDF is an interactive pdf layout building library, with dev experience similar to css.
- ```
+ ```js
  See an amazing example:
  
  let style = {
