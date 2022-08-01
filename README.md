@@ -26,6 +26,7 @@
  <details>
     <summary> div component <summary>
     ```js
+     
      let style = {
             marginLeft: '45.5%',
             width: '35%',
@@ -33,6 +34,7 @@
             padding: '15%',
             border: [0,0,0],
      }
+     
      container.div(doc, style)
     ```
  </details>
