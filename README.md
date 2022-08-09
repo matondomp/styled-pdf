@@ -26,6 +26,7 @@
    
   ```js
    import { Container, doc } from "styled-pdf";
+   const container = new Container()
     
  ```
 
