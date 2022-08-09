@@ -12,7 +12,7 @@
      marginLeft: '2%',
      ...
  }
-  container.dv(doc, style)
+  container.dv(style)
  ```
  <h1>First Steps</h1>
  - install:
@@ -49,7 +49,7 @@ let style = {
             padding: '15%',
             border: [0,0,0],
      }
-     container.div(doc, style)
+     container.div(style)
 ```
 
  </details>
@@ -66,7 +66,7 @@ let style = {
             border: [0,0,0],
             bgColor: [201, 201, 201],
      }
-     container.th(doc, style)
+     container.th(style)
 ```
 
  </details>
@@ -82,7 +82,7 @@ let style = {
 			padding: '4%',
 			border: [0,0,0]
      }
-     container.td(doc, style)
+     container.td(style)
 ```
 
  </details>
