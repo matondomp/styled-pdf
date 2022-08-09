@@ -1,6 +1,6 @@
 {
  "name": "styled-pdf",
- "version": "1.0.7",
+ "version": "1.0.8",
  "main": "index.js",
  "license": "MIT",
  "description": "STYLED-PDF is an interactive pdf layout building library, with dev experience similar to css.",

@@ -15,6 +15,7 @@
   container.dv(style)
  ```
  <h1>First Steps</h1>
+ 
  - install:
  
   ```sh
@@ -25,6 +26,7 @@
    
   ```js
    import { Container, doc } from "styled-pdf";
+   const container = new Container()
     
  ```
 
